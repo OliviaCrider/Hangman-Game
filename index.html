@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>Hangman Game</title>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="main-section">
+<h1>Hangman Star Edition<h1>
+<p>Have fun!</p>
+<form id="hangman">
+    <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+    <input id="guess" name="guess" type="submit" value="Guess" />
+    <button id="restart" class= "button"name="restart" type="button">Restart</button>
+</form>
+<ul id="letters"></ul>
+<p id="man"></p>
+<p id="output" class="output"></p>
+</div>
+</body>
+ 
+ <script src="assets/javascript/game.js"></script>

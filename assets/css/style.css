@@ -1,0 +1,68 @@
+
+body{
+		background: url("../images/pexels-photo-14676.png");
+		background-size: cover;
+}
+
+h1 { 
+		font-family: "Josefin Slab",Georgia,sans-serif;
+		text-shadow: 2px, 2px, 4px, black;
+		font-size:20px;
+		color:black;
+	}
+
+.main-section {
+ font-family:"Railway",Georgia, sans-serif;
+ padding:5px
+ line-height:5px;
+ text-align:center;
+ font-size:20px;
+  float: left;
+  width: 100%;
+  height:300px;
+  max-width:800px;
+  padding: 30px;
+  margin-left:30%;
+  margin-top:300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow:3px, 3px, 3px, black;
+
+}
+.button{
+	color:white;
+	background:black;
+	border-radius:3px;
+}
+.letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: black;
+    transition: all 1s ease;
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.win {
+    color: black;
+    opacity: 1;
+}
